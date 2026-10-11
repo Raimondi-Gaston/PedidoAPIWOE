@@ -36,6 +36,5 @@ export const razaApi = crud("raza");
 export const personajeApi = crud("personaje");
 export const ubicacionApi = crud("ubicacion");
 export const misionApi = crud("mision");
+export const get = (path) => request("GET", path);
 
-// Para no romper lo que ya tenés en Test
-export const getClases = claseApi.getAll;
